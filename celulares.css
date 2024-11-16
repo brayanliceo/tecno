@@ -1,0 +1,62 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: midnightblue;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: midnightblue;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Sección de teléfonos */
+.telefonos {
+  padding: 20px;
+}
+
+.telefonos h2 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.producto {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.imagen-producto {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.producto p {
+  font-size: 1rem;
+  color: #ddd;
+}
